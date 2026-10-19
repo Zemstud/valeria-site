@@ -45,9 +45,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg: #f6f4ef;
+    color-scheme: light;
+    --bg: #ffffff;
     --surface: #ffffff;
-    --surface-2: #efece4;
+    --surface-2: #f4f3f0;
     --ink: #201d18;
     --ink-soft: #635d51;
     --line: rgba(32,29,24,0.10);
@@ -57,35 +58,6 @@
     --clay: #a8663a;
     --shadow: 0 1px 2px rgba(32,29,24,0.04), 0 8px 24px -12px rgba(32,29,24,0.18);
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg: #15130f;
-      --surface: #1d1a15;
-      --surface-2: #262119;
-      --ink: #efe9de;
-      --ink-soft: #ab9f8c;
-      --line: rgba(239,233,222,0.10);
-      --line-strong: rgba(239,233,222,0.20);
-      --accent: #efe9de;
-      --accent-ink: #17140f;
-      --clay: #d68e5c;
-      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg: #15130f;
-    --surface: #1d1a15;
-    --surface-2: #262119;
-    --ink: #efe9de;
-    --ink-soft: #ab9f8c;
-    --line: rgba(239,233,222,0.10);
-    --line-strong: rgba(239,233,222,0.20);
-    --accent: #efe9de;
-    --accent-ink: #17140f;
-    --clay: #d68e5c;
-    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px -12px rgba(0,0,0,0.5);
-  }
-
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{
